@@ -1,6 +1,5 @@
 AC_PREREQ([2.63])
-AC_INIT([GNOME Mines], [3.21.3], [https://bugzilla.gnome.org/],
-        [gnome-mines], [https://wiki.gnome.org/Apps/Mines])
+AC_INIT([My GNOME Mines], [3.21.3], [jr_github_bugs@tutanota.com])
 AC_CONFIG_MACRO_DIR([m4])
 
 AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-xz foreign])
