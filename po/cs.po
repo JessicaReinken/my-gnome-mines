@@ -1,0 +1,382 @@
+# Czech translation of gnome-games.
+# Copyright (C) 2002, 2006, 2007, 2008, 2009 the author(s) of gnome-games.
+# Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# Copyright (C) 2006 Lukas Novotny <lukasnov@cvs.gnome.org>.
+# This file is distributed under the same license as the gnome-games package.
+#
+# Michal Bukovjan <bukm@centrum.cz>, 2002.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
+# Jan Parkman <parkmaj@users.sourceforge.net>, 2008.
+# Lucas Lommer <llommer@svn.gnome.org>, 2008, 2009, 2010.
+# Kamil Páral <ripper42@gmail.com>, 2008.
+# Marek Lisy <marek.lisy@centrum.cz>, 2008.
+# Petr Pulc <petrpulc@gmail.com>, 2009.
+# Andre Klapper <ak-47@gmx.net>, 2009.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2012.
+# Marek Černocký <marek@manet.cz>, 2010, 2011, 2012, 2013, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mines master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"mines&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-07-16 19:19+0000\n"
+"PO-Revision-Date: 2015-07-24 01:21+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/gnome-mines.appdata.xml.in.h:1
+msgid "GNOME Mines"
+msgstr "Miny GNOME"
+
+#: ../data/gnome-mines.appdata.xml.in.h:2 ../data/gnome-mines.desktop.in.h:2
+msgid "Clear hidden mines from a minefield"
+msgstr "Vyčistěte skryté miny z minového pole"
+
+#: ../data/gnome-mines.appdata.xml.in.h:3
+msgid ""
+"GNOME Mines is a puzzle game where you search for hidden mines. Flag the "
+"spaces with mines as quickly as possible to make the board a safer place. "
+"You win the game when you've flagged every mine on the board. Be careful not "
+"to trigger one, or the game is over!"
+msgstr ""
+"Miny GNOME jsou logická hra, ve které hledáte skryté miny. Označte co "
+"nejrychleji místa s minami, aby se hrací deska stala bezpečným místem. "
+"Vyhráváte, jakmile máte označeny všechny miny. Dávejte pozor, abyste přitom "
+"žádnou neodpálili, jinak hra končí."
+
+#: ../data/gnome-mines.appdata.xml.in.h:4
+msgid ""
+"You can select the size of the field you want to play on at the start of the "
+"game. If you get stuck, you can ask for a hint: there's a time penalty, but "
+"that's better than hitting a mine!"
+msgstr ""
+"Na začátku hry si můžete zvolit velikost pole, na kterém chcete hrát. Když "
+"jste v nesnázích, můžete požádat o radu – to vás bude sice stát trestný čas, "
+"ale je to lepší než odpálit minu."
+
+#: ../data/gnome-mines.desktop.in.h:1 ../data/interface.ui.h:1
+#: ../src/gnome-mines.vala:162 ../src/gnome-mines.vala:223
+#: ../src/gnome-mines.vala:784
+msgid "Mines"
+msgstr "Miny"
+
+#: ../data/gnome-mines.desktop.in.h:3
+msgid "minesweeper;"
+msgstr "odminování;hledání min;"
+
+#: ../data/gnome-mines.desktop.in.h:4
+msgid "Small board"
+msgstr "Malá herní deska"
+
+#: ../data/gnome-mines.desktop.in.h:5
+msgid "Medium board"
+msgstr "Střední herní deska"
+
+#: ../data/gnome-mines.desktop.in.h:6
+msgid "Big board"
+msgstr "Velká herní deska"
+
+#: ../data/org.gnome.mines.gschema.xml.h:1
+msgid "The theme to use"
+msgstr "Použitý motiv"
+
+#: ../data/org.gnome.mines.gschema.xml.h:2
+msgid "The title of the tile theme to use."
+msgstr "Název motivu herních kamenů, který se má použít."
+
+#: ../data/org.gnome.mines.gschema.xml.h:3
+msgid "Use the unknown flag"
+msgstr "Používat vlaječku pro neznámé"
+
+#: ../data/org.gnome.mines.gschema.xml.h:4
+msgid "Set to true to be able to mark squares as unknown."
+msgstr "Nastavte na zapnuto, abyste mohli označovat políčka jako neznámá."
+
+#: ../data/org.gnome.mines.gschema.xml.h:5
+msgid "Warning about too many flags"
+msgstr "Varování, když máte příliš mnoho vlaječek"
+
+#: ../data/org.gnome.mines.gschema.xml.h:6
+msgid ""
+"Set to true to enable warning icons when too many flags are placed next to a "
+"numbered tile."
+msgstr ""
+"Nastavte na zapnuto k povolení zobrazení varování, pokud je umístěno příliš "
+"mnoho vlaječek vedlo očíslovaného políčka."
+
+#: ../data/org.gnome.mines.gschema.xml.h:7
+msgid "Enable automatic placing of flags"
+msgstr "Povolit automatické umísťování vlaječek"
+
+#: ../data/org.gnome.mines.gschema.xml.h:8
+msgid ""
+"Set to true to automatically flag squares as mined when enough squares are "
+"revealed"
+msgstr ""
+"Nastavte na zapnuto, chcete-li, aby se automaticky umisťovaly vlajky na "
+"políčka s minami v případě, že je odkryto dostatek okolních políček"
+
+#: ../data/org.gnome.mines.gschema.xml.h:9
+msgid "Enable animations"
+msgstr "Povolit animace"
+
+#: ../data/org.gnome.mines.gschema.xml.h:10
+msgid "Set to false to disable theme-defined transition animations"
+msgstr "Nastavte na vypnuto, když chcete zakázat animace přechodů definovaných v motivu"
+
+#: ../data/org.gnome.mines.gschema.xml.h:11
+msgid "Number of columns in a custom game"
+msgstr "Počet sloupců ve vlastní hře"
+
+#: ../data/org.gnome.mines.gschema.xml.h:12
+msgid "Number of rows in a custom game"
+msgstr "Počet řádek ve vlastní hře"
+
+#: ../data/org.gnome.mines.gschema.xml.h:13
+msgid "The number of mines in a custom game"
+msgstr "Počet min ve vlastní hře"
+
+#: ../data/org.gnome.mines.gschema.xml.h:14
+msgid "Board size"
+msgstr "Velikost hrací desky"
+
+#: ../data/org.gnome.mines.gschema.xml.h:15
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Velikost hrací desky (0-2 = malá-velká, 3=vlastní)"
+
+#: ../data/org.gnome.mines.gschema.xml.h:16
+msgid "Width of the window in pixels"
+msgstr "Šířka okna v pixelech."
+
+#: ../data/org.gnome.mines.gschema.xml.h:17
+msgid "Height of the window in pixels"
+msgstr "Výška okna v pixelech."
+
+#: ../data/org.gnome.mines.gschema.xml.h:18
+msgid "true if the window is maximized"
+msgstr "Zapnuto, pokud je okno maximalizováno"
+
+#: ../data/interface.ui.h:2
+msgid "_Width"
+msgstr "Šířk_a"
+
+#: ../data/interface.ui.h:3
+msgid "_Height"
+msgstr "_Výška"
+
+#: ../data/interface.ui.h:4
+msgid "Percent _mines"
+msgstr "Procento _min"
+
+#: ../data/interface.ui.h:5
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: ../data/interface.ui.h:6
+msgid "_Play Game"
+msgstr "_Hrát hru"
+
+#: ../data/interface.ui.h:7 ../src/gnome-mines.vala:589
+#: ../src/gnome-mines.vala:695 ../src/gnome-mines.vala:733
+msgid "_Pause"
+msgstr "_Pozastavit"
+
+#: ../data/interface.ui.h:8
+msgid "Change _Difficulty"
+msgstr "Změnit o_btížnost"
+
+#: ../data/interface.ui.h:9
+msgid "_Best Times"
+msgstr "Nej_lepší časy"
+
+#: ../data/interface.ui.h:10
+msgid "_Play Again"
+msgstr "_Hrát znovu"
+
+#: ../data/interface.ui.h:11
+msgid "Paused"
+msgstr "Pozastaveno"
+
+#: ../src/gnome-mines.vala:88
+msgid "Print release version and exit"
+msgstr "Vypsat verzi vydání a skončit"
+
+#: ../src/gnome-mines.vala:89
+msgid "Small game"
+msgstr "Malá hra:"
+
+#: ../src/gnome-mines.vala:90
+msgid "Medium game"
+msgstr "Střední hra:"
+
+#: ../src/gnome-mines.vala:91
+msgid "Big game"
+msgstr "Velká hra:"
+
+#: ../src/gnome-mines.vala:235 ../src/gnome-mines.vala:254
+msgid "_Scores"
+msgstr "_Skóre"
+
+#: ../src/gnome-mines.vala:236 ../src/gnome-mines.vala:255
+msgid "A_ppearance"
+msgstr "Vz_hled"
+
+#: ../src/gnome-mines.vala:239 ../src/gnome-mines.vala:256
+msgid "_Show Warnings"
+msgstr "_Zobrazovat varování"
+
+#: ../src/gnome-mines.vala:240 ../src/gnome-mines.vala:257
+msgid "_Use Question Flags"
+msgstr "Po_užívat vlaječky pro nejisté"
+
+#: ../src/gnome-mines.vala:243 ../src/gnome-mines.vala:260
+msgid "_Help"
+msgstr "_Nápověda"
+
+#: ../src/gnome-mines.vala:244 ../src/gnome-mines.vala:262
+msgid "_About"
+msgstr "O _aplikaci"
+
+#: ../src/gnome-mines.vala:245 ../src/gnome-mines.vala:258
+msgid "_Quit"
+msgstr "U_končit"
+
+#: ../src/gnome-mines.vala:252
+msgid "_Mines"
+msgstr "_Miny"
+
+#: ../src/gnome-mines.vala:253
+msgid "_New Game"
+msgstr "_Nová hra"
+
+#: ../src/gnome-mines.vala:261
+msgid "_Contents"
+msgstr "O_bsah"
+
+#: ../src/gnome-mines.vala:353
+msgid "Custom"
+msgstr "Vlastní"
+
+#: ../src/gnome-mines.vala:432
+#, c-format
+msgid "<b>%d</b> mine"
+msgid_plural "<b>%d</b> mines"
+msgstr[0] "<b>%d</b> mina"
+msgstr[1] "<b>%d</b> miny"
+msgstr[2] "<b>%d</b> min"
+
+#: ../src/gnome-mines.vala:546
+msgid "Do you want to start a new game?"
+msgstr "Chcete začít novou hru?"
+
+#: ../src/gnome-mines.vala:547
+msgid "If you start a new game, your current progress will be lost."
+msgstr "Pokud začnete novou hru, bude váš postup v té stávající ztracen."
+
+#: ../src/gnome-mines.vala:548
+msgid "Keep Current Game"
+msgstr "Zachovat stávající hru"
+
+#: ../src/gnome-mines.vala:549
+msgid "Start New Game"
+msgstr "Začít novou hru"
+
+#: ../src/gnome-mines.vala:590
+msgid "St_art Over"
+msgstr "Z_ačít znovu"
+
+#: ../src/gnome-mines.vala:693
+msgid "_Resume"
+msgstr "Pok_račovat"
+
+#: ../src/gnome-mines.vala:711
+msgid "Play _Again"
+msgstr "_Hrát znovu"
+
+#: ../src/gnome-mines.vala:757
+msgid "Main game:"
+msgstr "Hlavní hra:"
+
+#: ../src/gnome-mines.vala:762
+msgid "Score:"
+msgstr "Skóre:"
+
+#: ../src/gnome-mines.vala:765
+msgid "Resizing and SVG support:"
+msgstr "Změna velikosti a podpora SVG:"
+
+#: ../src/gnome-mines.vala:787
+msgid "Clear explosive mines off the board"
+msgstr "Vyčistěte hrací desku od nášlapných min"
+
+#: ../src/gnome-mines.vala:794
+msgid "translator-credits"
+msgstr ""
+"Jirka Lébl\n"
+"Michal Bukovjan <bukm@centrum.cz>\n"
+"Miloslav Trmač <mitr@volny.cz>\n"
+"Petr Tomeš <ptomes@gmail.com>\n"
+"Lukáš Novotný <lukasnov@cvs.gnome.org>\n"
+"Jakub Friedl <jfriedl@suse.cz>\n"
+"Jan Parkman <parkmaj@users.sourceforge.net>\n"
+"Petr Kovář <pknbe@volny.cz>\n"
+"Lucas Lommer <llommer@svn.gnome.org>\n"
+"Kamil Páral <ripper42@gmail.com>\n"
+"Marek Lisý <marek.lisy@centrum.cz>\n"
+"Petr Pulc <petrpulc@gmail.com>\n"
+"Marek Černocký <marek@manet.cz>"
+
+#: ../src/score-dialog.vala:18
+msgid "_Close"
+msgstr "_Zavřít"
+
+#: ../src/score-dialog.vala:20
+msgid "New Game"
+msgstr "Nová hra"
+
+#: ../src/score-dialog.vala:24
+msgid "_OK"
+msgstr "_Budiž"
+
+#: ../src/score-dialog.vala:36
+msgid "Size:"
+msgstr "Velikost:"
+
+#: ../src/score-dialog.vala:61
+msgid "Date"
+msgstr "Datum"
+
+#: ../src/score-dialog.vala:64
+msgid "Time"
+msgstr "Čas"
+
+#: ../src/score-dialog.vala:160
+#, c-format
+msgid "%u × %u, %u mine"
+msgid_plural "%u × %u, %u mines"
+msgstr[0] "%u × %u, %u mina"
+msgstr[1] "%u × %u, %u miny"
+msgstr[2] "%u × %u, %u min"
+
+#: ../src/theme-selector-dialog.vala:77
+msgid "Use _animations"
+msgstr "Použít _animace"
+
+#: ../src/theme-selector-dialog.vala:93
+msgid "Select Theme"
+msgstr "Výběr motivu"
+
+#: ../src/theme-selector-dialog.vala:116
+msgid "Close"
+msgstr "Zavřít"

@@ -1,0 +1,310 @@
+GNOME Mines 3.21.3
+==================
+
+* Smaller minimum tile size to fit larger boards on fullHD (Robert Roth)
+* Disable accels on the custom game screen (Robert Roth)
+* Use libgames-support for score tracking (Michael Catanzaro, Nikhar Agrawal)
+* Updated translations
+
+GNOME Mines 3.20.0
+==================
+
+* Updated translations
+
+GNOME Mines 3.19.91
+==================
+
+* Updated translations
+* Fixed usage of deprecated icon name (Robert Roth)
+
+GNOME Mines 3.19.90
+==================
+
+* Updated translations
+* Updated the Appdata to spec version 0.7+ (Richard Hughes)
+* Fixed window size growing huge with GTK+ 3.20 (Michael Catanzaro)
+
+GNOME Mines 3.19.4
+==================
+
+* Updated translations
+* Stop using deprecated gnome-common (Sahil Sareen)
+* Add pre-commit and pre-applypatch hooks (Sahil Sareen)
+
+GNOME Mines 3.19.3
+==================
+
+* Updated translations
+* Updated appdata and doap
+
+GNOME Mines 3.19.2
+==================
+
+* Updated translations
+* Improved keyboard cursor display and behaviour (Isaac Lenton)
+* Added extra keyboard shortcuts for starting/stopping games (Isaac Lenton)
+* Change tile click behaviour to reveal tile on click release (Isaac Lenton)
+* Fixed jumping clock issue in timer (Robert Roth)
+* Show incorrectly flagged fields (Robert Roth)
+
+GNOME Mines 3.19.1
+==================
+
+* Updated translations
+* Fixed timer reset and timer jumps (Robert Roth) 
+
+GNOME Mines 3.18.1
+==================
+
+* Updated translations
+
+GNOME Mines 3.18.0
+==================
+
+* Updated translations
+
+GNOME Mines 3.17.92
+==================
+
+* Updated translations
+
+GNOME Mines 3.17.91
+==================
+
+* Updated translations
+
+GNOME Mines 3.17.90
+==================
+
+* Updated translations
+
+GNOME Mines 3.17.4
+==================
+
+* Updated translations
+* Performance improvements (Robert Roth)
+* Reduced high CPU usage after consecutive games (Robert Roth)
+
+
+GNOME Mines 3.17.3
+==================
+
+* Updated translations
+* Added animations enable/disable checkbox (Robert Roth)
+* Fixed unclickable spots between grid cells (Robert Roth)
+
+GNOME Mines 3.17.2
+==================
+
+* Updated translations
+* Fixed keyboard navigation limits (Behnam Momeni)
+* Provide a symbolic icon (Jakub Steiner)
+* Fixed theme selector initialization glitch (Yanko Kaneti)
+
+
+GNOME Mines 3.16.0
+==================
+
+* Updated translations
+
+GNOME Mines 3.15.91
+==================
+
+* Updated translations
+
+GNOME Mines 3.15.90
+==================
+
+* Updated translations
+* Readded screen transitions (Robert Roth)
+* Code cleanup (Robert Roth)
+* Removed New Game from app menu (Michael Catanzaro)
+* Updated About dialog (Michael Catanzaro)
+* Connect to size_allocate (Arnaud Bonatti)
+* Do not save size when tiled (Arnaud Bonatti)
+
+GNOME Mines 3.15.4
+==================
+
+* Updated translations
+* Added support for themes and theme selector dialog (Robert Roth)
+* Fixed distance between game area and sidebar buttons (Robert Roth)
+* Removed hover effect from inactive tiles (Robert Roth)
+* Do not hide any buttons (Robert Roth)
+
+GNOME Mines 3.15.3
+==================
+
+* Updated translations
+* Use appstream-util for appdata validation (Robert Roth)
+
+GNOME Mines 3.15.1
+==================
+
+* Updated translations
+* Added --version command line option  (Arnaud Bornatti)
+* Added --small, --medium and --large command line options (Arnaud Bornatti)
+* Added jumplist for starting mines with different sizes (Arnaud Bornatti)
+* Use XDG_CURRENT_DESKTOP to decide whether to use a header bar (Michael Catanzaro)
+* Play again or Start over on replay label (Robert Roth)
+* Removed obsolete shortcuts from documentation (Robert Roth)
+* Added screen transitions (Robert Roth)
+* Fixed custom size entry (Robert Roth)
+* Coding style fixes (Sahil Sareen)
+
+GNOME Mines 3.14.0
+==================
+
+* Updated translations
+* appdata: updated screenshot size (Michael Catanzaro)
+
+GNOME Mines 3.13.92
+==================
+
+* Don't translate timer labels (Michael Catanzaro)
+* Symbolic flag install path fixed (Robert Roth)
+* Use new function for setting accelerators (Arnaud Bonatti)
+* Updated translations
+
+GNOME Mines 3.13.91
+==================
+
+* Ignore the clock after exploding (Giovanni Campagna)
+* Updated translations
+
+GNOME Mines 3.13.90
+==================
+
+* High contrast icons (Michael Catanzaro)
+* Updated translations
+
+GNOME Mines 3.13.4
+==================
+
+* Theme tweaks for the latest Adwaita (Robert Roth)
+* Fixed rough image rendering (Robert Roth)
+* Do not use deprecated methods and properties (Robert Roth)
+* Fixed styling issues causing diamonds to appear in the grid (Robert Roth)
+* Fixed small flag icon (Robert Roth)
+* Translatable clock label (Michael Catanzaro)
+* Better-looking minimum width request for the small board (Robert Roth)
+* Don't show headerbar/appmenu on systems that don't support it (Robert Ancell)
+* Updated translations
+
+GNOME Mines 3.13.2
+==================
+
+* Update CSS style (Jakub Steiner)
+* Flipped tiles should not appear sensitive on hover (Robert Roth)
+* Scrollbars added for large custom minefields (Robert Roth)
+* Use improved flag icon in right column (Allan Day, Robert Roth)
+* Rename Difficulty button to Change Difficulty (Michael Catanzaro)
+* Updated translations
+
+GNOME Mines 3.13.1
+==================
+
+* Use delayed settings saving (Chris Johns)
+* New game screen improvements (Chris Johns)
+* Custom game screen improvements (Michael Catanzaro, Robert Roth)
+* Removed the preferences dialog (Michael Catanzaro)
+* Better minimum size request (Michael Catanzaro)
+* Reimplemented the minefield to be CSS stylable (Robert Roth)
+* Moved user interface creating code to Glade UI files (Robert Roth)
+* Added good-looking CSS style (Allan Day)
+* Updated translations and help
+
+GNOME Mines 3.12.0
+==================
+
+* Updated translations and help
+
+GNOME Mines 3.11.92
+===================
+
+* Appdata: update screenshot size
+* Updated translations and help
+
+GNOME Mines 3.11.90
+===================
+
+* Appdata: specify project_group
+* Rename desktop file to gnome-mines.desktop
+* Hint time penalty now increases
+* Add tooltips to buttons
+
+GNOME Mines 3.11.3
+==================
+
+* Move buttons to side of window (Robert Roth)
+* Enable question flags by default (Michael Catanzaro)
+* Allow setting percentage of mines on the board in custom games (Isaac Lenton)
+* Scores dialog: autoscroll to new score (Isaac Lenton)
+* Scores dialog: replace Quit button with Close (Isaac Lenton)
+* Updated translations
+
+GNOME Mines 3.11.1
+==================
+
+* Redesigned interface
+* Depend on intltool 0.50, gtk 3.10, and glib 2.36
+* Remove BugBuddy support
+* Translation updates
+
+GNOME Mines 3.10.0
+==================
+
+* Translation updates
+
+GNOME Mines 3.9.92
+==================
+
+* Add appdata file
+* Translation updates
+
+GNOME Mines 3.9.90
+==================
+
+* Fix crash when releasing buttons outside minefield
+* Resize the window when switching to a smaller minefield
+* Fix broken links and typos in user help
+* Fix name of app menu when not launched by GNOME Shell
+* Translation updates
+
+gnome-mines 3.8.0
+=================
+
+ * Translation updates
+
+gnome-mines 3.7.92
+====================
+
+* Renamed desktop file back to gnomine.dekstop
+* Increase number visibility
+* Keyboard support
+* Translations
+
+gnome-mines 3.7.5
+====================
+
+* Translations
+
+gnome-mines 3.7.4
+====================
+
+* Translations
+
+Contributions from: Alexander Shopov, Balázs Úr, Daniel Mustieles, Fran Diéguez,
+Matej Urbančič, Piotr Drąg, Yaron Shahrabani.
+
+gnome-mines 3.7.2
+====================
+
+* Fixed the build
+
+Contributions from: Piotr Drąg, Robert Ancell
+
+gnome-mines 3.7.0
+====================
+
+First release split from gnome-games

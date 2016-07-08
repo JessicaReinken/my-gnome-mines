@@ -1,0 +1,358 @@
+# Esperanto translation for gnome-mines.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mines package.
+# Tiffany ANTOPOLSKI <tiffany.antopolski@gmail.com>, 2011, 2012.
+# Nicolas MAIA <nicolasmaia@tutanota.com>, 2015.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011, 2012, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mines\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"mines&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-12-23 21:23+0000\n"
+"PO-Revision-Date: 2015-12-24 02:07+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
+"Language-Team: Esperanto <gnome-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/gnome-mines.appdata.xml.in.h:1
+msgid "GNOME Mines"
+msgstr "GNOME Minoj"
+
+#: ../data/gnome-mines.appdata.xml.in.h:2 ../data/gnome-mines.desktop.in.h:2
+msgid "Clear hidden mines from a minefield"
+msgstr "Kvitigu kaŝitajn minojn de minplena kampo"
+
+#: ../data/gnome-mines.appdata.xml.in.h:3
+msgid ""
+"GNOME Mines is a puzzle game where you search for hidden mines. Flag the "
+"spaces with mines as quickly as possible to make the board a safer place. "
+"You win the game when you've flagged every mine on the board. Be careful not "
+"to trigger one, or the game is over!"
+msgstr ""
+"GNOME Minoj estas puzla ludo en kiu oni serĉas kaŝitajn minojn. Flagu la "
+"spacojn kun minoj rapidege por sekurigi la tabulon. Vi gajnos kiam vi flagis "
+"ĉiujn minojn sur la tabulo. Atentu pro ke vi ne ekagigu minon, ĉar la ludo "
+"finus!"
+
+#: ../data/gnome-mines.appdata.xml.in.h:4
+msgid ""
+"You can select the size of the field you want to play on at the start of the "
+"game. If you get stuck, you can ask for a hint: there's a time penalty, but "
+"that's better than hitting a mine!"
+msgstr ""
+"Vi povas elekti la grandon de la kampo kiun vi deziras ludi je la komenco de "
+"la ludo. Se vi dubas pri sekva paŝo, vi povas peti sugeston: tio kaŭzas "
+"tempan punon, sed tio estas pli bona ol frapi minon!"
+
+#: ../data/gnome-mines.desktop.in.h:1 ../data/interface.ui.h:1
+#: ../src/gnome-mines.vala:167 ../src/gnome-mines.vala:228
+#: ../src/gnome-mines.vala:805
+msgid "Mines"
+msgstr "Minoj"
+
+#: ../data/gnome-mines.desktop.in.h:3
+msgid "minesweeper;"
+msgstr "minoforiga;"
+
+#: ../data/gnome-mines.desktop.in.h:4
+msgid "Small board"
+msgstr "Eta tabulo"
+
+#: ../data/gnome-mines.desktop.in.h:5
+msgid "Medium board"
+msgstr "Meza tabulo"
+
+#: ../data/gnome-mines.desktop.in.h:6
+msgid "Big board"
+msgstr "Granda tabulo"
+
+#: ../data/org.gnome.mines.gschema.xml.h:1
+msgid "The theme to use"
+msgstr "La uzenda etoso"
+
+#: ../data/org.gnome.mines.gschema.xml.h:2
+msgid "The title of the tile theme to use."
+msgstr "La nomo de la etoso, kiu uziĝos por la kaheloj."
+
+#: ../data/org.gnome.mines.gschema.xml.h:3
+msgid "Use the unknown flag"
+msgstr "Uzi la \"nekonata\"-flagon"
+
+#: ../data/org.gnome.mines.gschema.xml.h:4
+msgid "Set to true to be able to mark squares as unknown."
+msgstr ""
+"Kiam tiu ĉi elekto estas \"vera\", vi povas marki kvadratojn kiel nekonatajn."
+
+#: ../data/org.gnome.mines.gschema.xml.h:5
+msgid "Warning about too many flags"
+msgstr "Avertmesaĝo pri tro multe da flagoj"
+
+#: ../data/org.gnome.mines.gschema.xml.h:6
+#, fuzzy
+msgid ""
+"Set to true to enable warning icons when too many flags are placed next to a "
+"numbered tile."
+msgstr ""
+"Ŝalti al \"vera\" por enŝalti avertsimbolojn kiam tro multe da flagoj estas "
+"metitaj apud numeritan kahelon."
+
+#: ../data/org.gnome.mines.gschema.xml.h:7
+msgid "Enable automatic placing of flags"
+msgstr "Ebligi aŭtomatan metadon de flagoj"
+
+#: ../data/org.gnome.mines.gschema.xml.h:8
+msgid ""
+"Set to true to automatically flag squares as mined when enough squares are "
+"revealed"
+msgstr ""
+"Ŝalti al \"vera\" por aŭtomate flagi kvadratojn kiel minitaj kiam sufiĉe da "
+"kvadratoj estas montrataj"
+
+#: ../data/org.gnome.mines.gschema.xml.h:9
+msgid "Enable animations"
+msgstr "Enŝalti movbildojn"
+
+#: ../data/org.gnome.mines.gschema.xml.h:10
+msgid "Set to false to disable theme-defined transition animations"
+msgstr "Ŝalti al \"malvera\" por malebligi etosajn transirajn movbildojn"
+
+#: ../data/org.gnome.mines.gschema.xml.h:11
+msgid "Number of columns in a custom game"
+msgstr "Nombro da kolumnoj en propra ludo"
+
+#: ../data/org.gnome.mines.gschema.xml.h:12
+msgid "Number of rows in a custom game"
+msgstr "Nombro da vicoj en propra ludo"
+
+#: ../data/org.gnome.mines.gschema.xml.h:13
+msgid "The number of mines in a custom game"
+msgstr "La nombro da minoj en propra ludo"
+
+#: ../data/org.gnome.mines.gschema.xml.h:14
+msgid "Board size"
+msgstr "Tabula grando"
+
+#: ../data/org.gnome.mines.gschema.xml.h:15
+msgid "Size of the board (0-2 = small-large, 3=custom)"
+msgstr "Grando de la tabulo (0–2 = malgranda ĝis granda; 3 = propra)"
+
+#: ../data/org.gnome.mines.gschema.xml.h:16
+msgid "Width of the window in pixels"
+msgstr "La larĝo de la fenestro per rastrumeroj"
+
+#: ../data/org.gnome.mines.gschema.xml.h:17
+msgid "Height of the window in pixels"
+msgstr "La alto de la fenestro per rastrumeroj"
+
+#: ../data/org.gnome.mines.gschema.xml.h:18
+msgid "true if the window is maximized"
+msgstr "vera se la fenestro estas maksimumigita"
+
+#: ../data/interface.ui.h:2
+msgid "_Width"
+msgstr "_Larĝeco"
+
+#: ../data/interface.ui.h:3
+msgid "_Height"
+msgstr "_Alteco"
+
+#: ../data/interface.ui.h:4
+msgid "Percent _mines"
+msgstr "Kvanto de _minoj"
+
+#: ../data/interface.ui.h:5
+msgid "_Cancel"
+msgstr "_Nuligi"
+
+#: ../data/interface.ui.h:6
+msgid "_Play Game"
+msgstr "_Komenci ludon"
+
+#: ../data/interface.ui.h:7 ../src/gnome-mines.vala:602
+#: ../src/gnome-mines.vala:716 ../src/gnome-mines.vala:754
+msgid "_Pause"
+msgstr "_Paŭzo"
+
+#: ../data/interface.ui.h:8
+msgid "Change _Difficulty"
+msgstr "Ŝanĝi _facilecon"
+
+#: ../data/interface.ui.h:9
+msgid "_Best Times"
+msgstr "_Plej Bonaj Fojoj"
+
+#: ../data/interface.ui.h:10
+msgid "_Play Again"
+msgstr "_Ludi denove"
+
+#: ../data/interface.ui.h:11
+msgid "Paused"
+msgstr "Paŭzigite"
+
+#: ../src/gnome-mines.vala:88
+msgid "Print release version and exit"
+msgstr "Montri eldonversion kaj eliri"
+
+#: ../src/gnome-mines.vala:89
+msgid "Small game"
+msgstr "Eta ludo"
+
+#: ../src/gnome-mines.vala:90
+msgid "Medium game"
+msgstr "Meza ludo"
+
+#: ../src/gnome-mines.vala:91
+msgid "Big game"
+msgstr "Granda ludo"
+
+#: ../src/gnome-mines.vala:240 ../src/gnome-mines.vala:259
+msgid "_Scores"
+msgstr "_Poentaroj"
+
+#: ../src/gnome-mines.vala:241 ../src/gnome-mines.vala:260
+msgid "A_ppearance"
+msgstr "As_pekto"
+
+#: ../src/gnome-mines.vala:244 ../src/gnome-mines.vala:261
+msgid "_Show Warnings"
+msgstr "_Montri avertojn"
+
+#: ../src/gnome-mines.vala:245 ../src/gnome-mines.vala:262
+msgid "_Use Question Flags"
+msgstr "_Uzi demandajn flagojn"
+
+#: ../src/gnome-mines.vala:248 ../src/gnome-mines.vala:265
+msgid "_Help"
+msgstr "_Helpo"
+
+#: ../src/gnome-mines.vala:249 ../src/gnome-mines.vala:267
+msgid "_About"
+msgstr "_Pri"
+
+#: ../src/gnome-mines.vala:250 ../src/gnome-mines.vala:263
+msgid "_Quit"
+msgstr "_Fini"
+
+#: ../src/gnome-mines.vala:257
+msgid "_Mines"
+msgstr "_Minoj"
+
+#: ../src/gnome-mines.vala:258
+msgid "_New Game"
+msgstr "_Nova ludo"
+
+#: ../src/gnome-mines.vala:266
+msgid "_Contents"
+msgstr "_Enhavoj"
+
+#: ../src/gnome-mines.vala:363
+msgid "Custom"
+msgstr "Propra"
+
+#: ../src/gnome-mines.vala:442
+#, c-format
+msgid "<b>%d</b> mine"
+msgid_plural "<b>%d</b> mines"
+msgstr[0] "<b>%d</b> mino"
+msgstr[1] "<b>%d</b> minoj"
+
+#: ../src/gnome-mines.vala:559
+msgid "Do you want to start a new game?"
+msgstr "Ĉu vi volas ekludi novan ludo?"
+
+#: ../src/gnome-mines.vala:560
+msgid "If you start a new game, your current progress will be lost."
+msgstr "Se vi ekludas novan ludon, via nuntempa progreso forviŝiĝos."
+
+#: ../src/gnome-mines.vala:561
+msgid "Keep Current Game"
+msgstr "Teni la aktualan ludon"
+
+#: ../src/gnome-mines.vala:562
+msgid "Start New Game"
+msgstr "Komenci novan ludon"
+
+#: ../src/gnome-mines.vala:603
+msgid "St_art Over"
+msgstr "Ekludi de_komence"
+
+#: ../src/gnome-mines.vala:714
+msgid "_Resume"
+msgstr "_Reaktivigi"
+
+#: ../src/gnome-mines.vala:732
+msgid "Play _Again"
+msgstr "Ludi _denove"
+
+#: ../src/gnome-mines.vala:778
+msgid "Main game:"
+msgstr "Ĉefludo:"
+
+#: ../src/gnome-mines.vala:783
+msgid "Score:"
+msgstr "Poentaro:"
+
+#: ../src/gnome-mines.vala:786
+msgid "Resizing and SVG support:"
+msgstr "Regrandigada kaj SVG-a subteno:"
+
+#: ../src/gnome-mines.vala:808
+msgid "Clear explosive mines off the board"
+msgstr "Movi eksplodemajn minojn for de la tabulo"
+
+#: ../src/gnome-mines.vala:815
+msgid "translator-credits"
+msgstr ""
+"Tiffany Antopolski\n"
+"Kristjan SCHMIDT\n"
+"Nicolas MAIA"
+
+#: ../src/score-dialog.vala:18
+msgid "_Close"
+msgstr "_Fermi"
+
+#: ../src/score-dialog.vala:20
+msgid "New Game"
+msgstr "Nova ludo"
+
+#: ../src/score-dialog.vala:24
+msgid "_OK"
+msgstr "_Bone"
+
+#: ../src/score-dialog.vala:36
+msgid "Size:"
+msgstr "Grando:"
+
+#: ../src/score-dialog.vala:61
+msgid "Date"
+msgstr "Dato"
+
+#: ../src/score-dialog.vala:64
+msgid "Time"
+msgstr "Daŭro"
+
+#: ../src/score-dialog.vala:160
+#, c-format
+msgid "%u × %u, %u mine"
+msgid_plural "%u × %u, %u mines"
+msgstr[0] "%u × %u, %u mino"
+msgstr[1] "%u × %u, %u minoj"
+
+#: ../src/theme-selector-dialog.vala:77
+msgid "Use _animations"
+msgstr "Uzi _movbildojn"
+
+#: ../src/theme-selector-dialog.vala:93
+msgid "Select Theme"
+msgstr "Elekti etoson"
+
+#: ../src/theme-selector-dialog.vala:116
+msgid "Close"
+msgstr "Fermi"
